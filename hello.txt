@@ -1,0 +1,52 @@
+
+Configuration :
+
+inorder for git to  identify or know who all are making any changes we need 
+to provide git our personal information ,
+
+
+for this we are using an command known as git config 
+-- global flag is used to represent a set of things that are ddone globally 
+It is used to set a behaviour only once , we cant change that for every project 
+
+It is used to configure git on the system
+
+commands :
+git config --global user.name "USERNAME" => Used to specify the name of the user
+git config --global user.email "EMAIL ID"=> Used to specify the email id of user 
+git config --global init.defaultBranch "BRANCH NAME" => Used to specify the name of the head branch that was created by default it was master 
+
+// to read those values we need to give the following command 
+
+git config user.name 
+git config user.email etc..
+
+
+// To mark a normal folder as a folder to be managed by git we need to use the command 
+
+   Ans :>     git init 
+
+// To see the status or know about the git folder we need to use the command 
+   
+   Ans : >> git status 
+ 
+ It will show output like this  
+ 
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+        index.js
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+
+
+
+
