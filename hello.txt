@@ -31,7 +31,7 @@ git config user.email etc..
    Ans : >> git status 
  
  It will show output like this  
- 
+
 On branch main
 
 No commits yet
@@ -44,9 +44,29 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+// To make git to understand which files need to be managed we are using a command
+
+git add 'fileName.txt' 
 
 
+// To add (temporarily save those changes to the local repository we need to give commit command the syntax will be)
 
 
+git commit -m 'Message to be provided ' 
+
+// to view the set of commit changes that are happened in our repository then we need to put the command
+
+git log 
 
 
+// The head pointer in git , is used to speicfy the latest commit the user has provided ,
+ It is used to point the latest commit , by changing the directory or going to the previous commit , the head will move to the particular state 
+
+
+// How to go to the previous commit 
+  
+
+  if we need to go to the previous commit in github we need to provide the command 
+
+  git checkout branchName (or) commitID
+// with this command the head pointer will move to the current configuration 
