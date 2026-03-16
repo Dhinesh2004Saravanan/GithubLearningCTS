@@ -44,6 +44,8 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+
+Adding Files :
 // To make git to understand which files need to be managed we are using a command
 
 git add 'fileName.txt' 
@@ -70,3 +72,17 @@ git log
 
   git checkout branchName (or) commitID
 // with this command the head pointer will move to the current configuration 
+
+
+// BRanching 
+
+
+branching is a process of creating a duplicate copy that it must be edited for external purposes
+
+// to create a branch we need to use 2 commands
+
+1) git branch NewBranchName 
+2) git checkout NewBranchName
+
+or else we need to use 
+git checkout -b 
